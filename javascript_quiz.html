@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="javascript_quiz_style.css">
+  <script type="text/javascript" src="javascript_quiz_functionality.js"></script>
+  <title>Interest</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a class="active" href="index.html">Ricardo Porrata</a>
+    <a href="about_me_page.html">About me</a>
+    <a href="interest_page.html">Interest</a>
+    <a href="javascript_quiz.html">Javascript Quiz</a>
+
+  </div>
+
+  <h1><strong>Quiz</strong></h1>
+  <hr>
+
+  <h1><strong/>This quiz will be about be about  what you've learned about Javascript.<br>Let's test your Knowledge !<strong/></h1><br>
+
+  <div class="container">
+
+
+<form class="quiz" action="index.html" method="post">
+  <h2 id="A1">1. What is the method for writing a line in a document?</h2><br>
+  <input type="radio" name="question1" value="document.writeln();" id="answer">A) document.writeln();<br>
+  <input type="radio" name="question1" value="document.alert();">B) document.alert();<br>
+  <input type="radio" name="question1" value="console.log();">C) console.log();<br>
+  <input type="radio" name="question1" value="window.prompt();">D) window.prompt();<br>
+
+  <h2 id="A2">2. What is the output of the code?</h2>
+
+  var grade, points = 80;<br>
+  if(points<=100 || points<=90)<br>
+  grade = "A";<br>
+
+  if else(points<=89 || points<=80)<br>
+  grade = "B";<br>
+
+  if else (points<=79 || points<=70)<br>
+  grade = "C";<br>
+
+  if else(points<=69 || points<=60)<br>
+  grade = "D";<br>
+
+  if else(points<=59)<br>
+  grade = "F";<br>
+  document.writeln("The grade is " + grade);<br><br>
+
+
+  <input type="radio" name="question2" value="The grade is B" id="answer">A) The grade is B<br>
+  <input type="radio" name="question2" value="The grade is C">B) The grade is C<br>
+  <input type="radio" name="question2" value="The grade is A">C)The grade is A<br>
+  <input type="radio" name="question2" value="The grade is F">D) The grade is F<br>
+
+  <h2 id="A3">3. What is the outtput of this code?</h2>
+
+   for(var row = 1; row <= 5; ++row){<br>
+   document.writeln("<br/>");<br>
+   for(var column = 1;column <= 10; ++column){<br>
+     if(column>row)<br>
+     continue nextRow;<br>
+     document.writeln("* ");<br>
+   }<br>
+ }<br>
+  <input type="radio" name="question3" value="*" id="answer">A)<br>*<br>
+  **<br>
+  ***<br>
+  ****<br>
+  *****<br>
+  <input type="radio" name="question3" value="**">B)<br>*****<br>
+  ****<br>
+  ***<br>
+  **<br>
+  *<br>
+  <input type="radio" name="question3" value="***">C)<br>*<br>
+  ***<br>
+  *****<br>
+  ***<br>
+  *<br>
+  <input type="radio" name="question3" value="****">D)<br>*<br>
+  **********************<br>
+
+  <h2 id="A4">4. Which function is correctly defined?</h2>
+  <input type="radio" name="question4" value="function sum(){}" id="answer">A) function sum(){}<br>
+  <input type="radio" name="question4" value="sum() {}">B) sum() {}<br>
+  <input type="radio" name="question4" value="function () {}">C) function () {}<br>
+  <input type="radio" name="question4" value="function sum{} ()">D) function sum{} ()<br>
+
+  <h2 id="D5" >5. What are some of the characteristics that describe a binary search best?</h2>
+  <input type="radio" name="question5" value="Requires sorted data">A) Requires sorted data<br>
+  <input type="radio" name="question5" value="Cuts search range in half each iteration">B) Cuts search range in half each iteration<br>
+  <input type="radio" name="question5" value="Efficient">C) Efficient<br>
+  <input type="radio" name="question5" value="All of the above " id="answer">D)All of the above<br>
+
+  <h2 id="C6">6. What does the substr(start,length) string function do ?</h2>
+  <input type="radio" name="question6" value="Converts the variable into a string">A)Converts the variable into a string<br>
+  <input type="radio" name="question6" value="Returns a string in which all lowercase letters are converted in to uppercase letters.">B) Returns a string in which all lowercase letters are converted in to uppercase letters.<br>
+  <input type="radio" name="question6" value="Returns a string containing length characters starting from index start in the source string" id="answer">C) Returns a string containing length characters starting from index start in the source string<br>
+  <input type="radio" name="question6" value="Returns the character at specific position">D) Returns the character at specific position<br>
+
+  <h2 id="C7">7.What is the simplest way to reference an element in a web page?</h2>
+  <input type="radio" name="question7" value="call the element">A) Call the element<br>
+  <input type="radio" name="question7" value="calling a function that makes reference to the element">B) Calling a function that makes reference to the element<br>
+  <input type="radio" name="question7" value="using the elements id attribute" id="answer">C) Using the elements id attribute<br>
+  <input type="radio" name="question7" value="None of the above">D) None of the above<br>
+
+  <h2 id="B8">8. What does the onmouseover event do?</h2>
+  <input type="radio" name="question8" value="Mouse cursos leaves element">A) Mouse cursos leaves element<br>
+  <input type="radio" name="question8" value="Mouse cursor moves over element" id="answer">B) Mouse cursor moves over element<br>
+  <input type="radio" name="question8" value="When an element is clicked">C) When an element is clicked<br>
+  <input type="radio" name="question8" value="None of the above">D) None of the above<br>
+
+  <h2 id="D9" >9. What are some of the special effects?</h2>
+  <input type="radio" name="question9" value="Mask Filter">A) Mask Filter<br>
+  <input type="radio" name="question9" value="Shadow Filter">B) Shadow Filter<br>
+  <input type="radio" name="question9" value="Blur Filter">C) Blur Filter<br>
+  <input type="radio" name="question9" value="All of the above" id="answer">D) All of the above<br>
+
+  <h2  id="D10" >10. What are the advantages of filtering and sorting data to a client?</h2>
+  <input type="radio" name="question10" value="It dosen't involve the server">A) It dosen't involve the server<br>
+  <input type="radio" name="question10" value="To select the records appropiate for a particular application">B) To select the records appropiate for a particular application<br>
+  <input type="radio" name="question10" value="To be able to navigate backward and forward through a database with the Move methods">C) To be able to navigate backward and forward through a database with the move methods<br>
+  <input type="radio" name="question10" value="All of the above" id="answer">D) All of the above <br>
+
+  <input type="button" name="Submit" value="Submit" id="SubmitButton" onclick="finishedQuiz()">
+  <input type="button" name="Reset" value="Reset" id="ResetButton" onclick="resetQuiz()">
+
+
+</form>
+
+
+  </div>
+
+
+  <footer>
+    <div>
+      <p>2018 © Ricardo Porrata. All Rights Reserved. </p>
+
+    </div>
+
+</body>
+
+</html>
