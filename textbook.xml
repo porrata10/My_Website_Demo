@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <h:textbook xmlns:h="books:textbook:h">
+    <h:title>Internet and World Wide Web: How to Program with CD-ROM BK and CD ROM</h:title>
+    <h:author-firstname>Harvey</h:author-firstname>
+    <h:author-lastname>Deitel</h:author-lastname>
+    <h:publisher>Prentice Hall</h:publisher>
+    <h:publisher-website>http://www.prenticehall.com/</h:publisher-website>
+    <h:year>2004</h:year>
+    <h:ISBN>0131450913</h:ISBN>
+    <h:edition>3rd</h:edition>
+    <h:cover-type>Paperback</h:cover-type>
+  </h:textbook>
+  <f:textbook xmlns:f="books:textbook:fh:">
+    <f:title>Computer Organization and Design: The Hardware/Software Interface</f:title>
+    <f:author-firstname>David</f:author-firstname>
+    <f:author-lastname>Patterson</f:author-lastname>
+    <f:publisher>Morgan Kaufmann Publishers</f:publisher>
+    <f:publisher-website>https://www.elsevier.com/books-and-journals/morgan-kaufmann</f:publisher-website>
+    <f:year>2014</f:year>
+    <f:ISBN>9781558604919</f:ISBN>
+    <f:edition>5th</f:edition>
+    <f:cover-type>Hardcover</f:cover-type>
+  </f:textbook>
+</books>
